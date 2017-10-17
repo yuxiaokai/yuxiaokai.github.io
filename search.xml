@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Math对象方法总结]]></title>
+    <url>%2F2017%2F10%2F17%2Fjs(Math)%2F</url>
+    <content type="text"><![CDATA[Math 对象方法Math对象不是构造函数，它具有数学常数和函数的属性和方法，都是以静态成员的方式提供 属性PI Math.PI 最大值和最小值 12Math.max();Math.min(); 取整 123Math.ceil();//天花板，向上取整Math.floor();//地板，向下取整Math.round();//四舍五入，如果是.5，则取更大的值 绝对值 1Math.abs();//求绝对值 次幂和平方12Math.pow(num,power);//求num的power次方Math.sqrt(num);//num开平方]]></content>
+      <categories>
+        <category>原生JS</category>
+      </categories>
+      <tags>
+        <tag>JS数组</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[博客测试]]></title>
+    <url>%2F2017%2F09%2F29%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 快速开始生成目录1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>于晓凯的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-10-17T09:24:53.505Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>于晓凯</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Math对象方法总结</title>
+    <link href="http://yoursite.com/2017/10/17/js(Math)/"/>
+    <id>http://yoursite.com/2017/10/17/js(Math)/</id>
+    <published>2017-10-17T09:24:53.475Z</published>
+    <updated>2017-10-17T09:24:53.505Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Math-对象方法"><a href="#Math-对象方法" class="headerlink" title="Math 对象方法"></a>Math 对象方法</h3><p><strong>Math对象不是构造函数，它具有数学常数和函数的属性和方法，都是以静态成员的方式提供</strong></p><ul><li>属性PI</li></ul><p><code>Math.PI</code></p><ul><li>最大值和最小值</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.max();</div><div class="line"><span class="built_in">Math</span>.min();</div></pre></td></tr></table></figure><ul><li>取整</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.ceil();<span class="comment">//天花板，向上取整</span></div><div class="line"><span class="built_in">Math</span>.floor();<span class="comment">//地板，向下取整</span></div><div class="line"><span class="built_in">Math</span>.round();<span class="comment">//四舍五入，如果是.5，则取更大的值</span></div></pre></td></tr></table></figure><ul><li>绝对值</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.abs();<span class="comment">//求绝对值</span></div></pre></td></tr></table></figure><ul><li>次幂和平方<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.pow(num,power);<span class="comment">//求num的power次方</span></div><div class="line"><span class="built_in">Math</span>.sqrt(num);<span class="comment">//num开平方</span></div></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Math-对象方法&quot;&gt;&lt;a href=&quot;#Math-对象方法&quot; class=&quot;headerlink&quot; title=&quot;Math 对象方法&quot;&gt;&lt;/a&gt;Math 对象方法&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Math对象不是构造函数，它具有数学常数和函数的属性和方法，都是以静
+      
+    
+    </summary>
+    
+      <category term="原生JS" scheme="http://yoursite.com/categories/%E5%8E%9F%E7%94%9FJS/"/>
+    
+    
+      <category term="JS数组" scheme="http://yoursite.com/tags/JS%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客测试</title>
+    <link href="http://yoursite.com/2017/09/29/hello-world/"/>
+    <id>http://yoursite.com/2017/09/29/hello-world/</id>
+    <published>2017-09-29T07:20:17.220Z</published>
+    <updated>2017-10-01T08:24:30.752Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="生成目录"><a href="#生成目录" class="headerlink" title="生成目录"></a>生成目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
